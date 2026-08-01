@@ -31,5 +31,5 @@ window.SITE_CONFIG = {
   instagramHandle: "@aakashsingh563",
   instagramUrl: "https://instagram.com/aakashsingh563",
   youtubeChannelUrl: "https://youtube.com/@aakashiitian0563",
-  youtubePlaylistUrl: "https://youtube.com/playlist?list=PLVQvj6V-gxZo&si=_vvaXOVan2dzab0p"
+  youtubePlaylistUrl: "https://youtube.com/playlist?list=PLVQvj6V-gxZo"
 };
