@@ -31,5 +31,12 @@ window.SITE_CONFIG = {
   instagramHandle: "@aakashsingh563",
   instagramUrl: "https://instagram.com/aakashsingh563",
   youtubeChannelUrl: "https://youtube.com/@aakashiitian0563",
-  youtubePlaylistUrl: "https://youtube.com/playlist?list=PLVQvj6V-gxZo"
+  youtubePlaylistUrl: "https://youtube.com/playlist?list=PLVQvj6V-gxZo",
+
+  // Free AI Study Chatbot (reads this PDF in the browser — no backend, no cost)
+  chatbotPdfUrl: "resources/Vulnerable-Sections-Notes.pdf",
+  chatbotTopic: "Vulnerable Sections of Society",
+
+  // Downloadable mind map shown on the Free Resources page
+  mindmapPdfUrl: "resources/Vulnerable-Sections-MindMap.pdf"
 };
