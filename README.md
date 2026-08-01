@@ -18,9 +18,31 @@ contact.html        Contact details
 roadmap.html        Product roadmap
 courses/            Individual course pages
 css/style.css       All site styles (responsive)
-js/script.js        Responsive navigation (hamburger menu)
+js/config.js        Central site settings (links, contact, socials)
+js/script.js        Applies config + responsive navigation (hamburger menu)
 images/             Logo and course images
 ```
+
+## Managing site content
+
+Common values (enrollment form link, email, phone, and social links) live in one
+place: [`js/config.js`](js/config.js). Edit a value there once and it updates on
+every page automatically — no HTML editing needed.
+
+```js
+window.SITE_CONFIG = {
+  enrollFormUrl: "https://forms.gle/...",   // "Enroll Now" buttons
+  email: "...",                              // contact email
+  phone: "...",                              // mobile / WhatsApp
+  telegramUrl: "...",
+  instagramUrl: "...",
+  youtubeChannelUrl: "...",
+  youtubePlaylistUrl: "..."
+};
+```
+
+In the HTML, elements pick up these values through `data-cfg-href` (links) and
+`data-cfg-text` (text) hooks, which `js/script.js` fills in on page load.
 
 ## Run locally
 
