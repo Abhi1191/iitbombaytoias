@@ -15,8 +15,8 @@ window.SITE_CONFIG = {
   siteName: "IIT Bombay To IAS",
 
   // Deployment (GitHub)
-  repoUrl: "https://github.com/Abhi1191/iitbombaytoias",
-  siteUrl: "https://abhi1191.github.io/iitbombaytoias/",
+  repoUrl: "https://github.com/aakash563/iitbombaytoias",
+  siteUrl: "https://aakash563.github.io/iitbombaytoias/",
 
   // Primary call-to-action (Google Form used for enrollment)
   enrollFormUrl: "https://forms.gle/uqnSGutSCqCPFCfB7",

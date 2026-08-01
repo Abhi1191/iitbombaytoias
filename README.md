@@ -82,11 +82,11 @@ This is a **project site** hosted on the `Abhi1191` account in a repository name
    git add .
    git commit -m "Responsive site update"
    git branch -M main
-   git remote add origin https://github.com/Abhi1191/iitbombaytoias.git
+   git remote add origin https://github.com/aakash563/iitbombaytoias.git
    git push -u origin main
    ```
 
 3. In the repo, go to **Settings → Pages** and confirm the source is
    **Deploy from a branch**, branch **main**, folder **/ (root)**.
-4. The site goes live at **https://abhi1191.github.io/iitbombaytoias/** (allow a
+4. The site goes live at **https://aakash563.github.io/iitbombaytoias/** (allow a
    minute for the first build).
